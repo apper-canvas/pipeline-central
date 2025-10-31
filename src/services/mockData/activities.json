@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "type": "call",
+    "description": "Initial discovery call to discuss enterprise software needs and current pain points",
+    "contactId": "1",
+    "dealId": "1",
+    "timestamp": "2024-02-05T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "type": "email",
+    "description": "Sent technical documentation and API specifications for review",
+    "contactId": "2",
+    "dealId": "2",
+    "timestamp": "2024-02-05T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "type": "meeting",
+    "description": "Demo presentation of marketing automation features and ROI analysis",
+    "contactId": "3",
+    "dealId": "3",
+    "timestamp": "2024-02-04T16:00:00Z"
+  },
+  {
+    "Id": 4,
+    "type": "note",
+    "description": "Customer expressed strong interest in Q2 implementation timeline and budget approval",
+    "contactId": "4",
+    "dealId": "4",
+    "timestamp": "2024-02-04T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "type": "call",
+    "description": "Follow-up call regarding compliance requirements and security certifications",
+    "contactId": "5",
+    "dealId": "5",
+    "timestamp": "2024-02-03T15:20:00Z"
+  },
+  {
+    "Id": 6,
+    "type": "email",
+    "description": "Shared proposal document with detailed technical architecture and integration plan",
+    "contactId": "6",
+    "dealId": "6",
+    "timestamp": "2024-02-03T09:30:00Z"
+  },
+  {
+    "Id": 7,
+    "type": "meeting",
+    "description": "Contract negotiation session with legal and technical teams",
+    "contactId": "1",
+    "dealId": "1",
+    "timestamp": "2024-02-02T14:00:00Z"
+  },
+  {
+    "Id": 8,
+    "type": "task",
+    "description": "Prepared custom demo environment with client-specific data and use cases",
+    "contactId": "2",
+    "dealId": "2",
+    "timestamp": "2024-02-01T13:15:00Z"
+  },
+  {
+    "Id": 9,
+    "type": "call",
+    "description": "Introductory call to understand current marketing challenges and growth objectives",
+    "contactId": "3",
+    "dealId": "3",
+    "timestamp": "2024-02-01T10:30:00Z"
+  },
+  {
+    "Id": 10,
+    "type": "note",
+    "description": "Client confirmed budget allocation and requested implementation timeline proposal",
+    "contactId": "4",
+    "dealId": "4",
+    "timestamp": "2024-01-31T16:45:00Z"
+  }
+]

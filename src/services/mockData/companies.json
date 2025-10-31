@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "name": "TechCorp Solutions",
+    "industry": "Technology",
+    "size": "Large",
+    "website": "https://techcorp-solutions.com",
+    "phone": "+1 (555) 100-2000",
+    "address": "123 Innovation Drive, San Francisco, CA 94107",
+    "notes": "Leading enterprise software company with 500+ employees. Strong growth trajectory and expansion plans."
+  },
+  {
+    "Id": 2,
+    "name": "InnovateTech",
+    "industry": "Software Development",
+    "size": "Medium",
+    "website": "https://innovatetech.io",
+    "phone": "+1 (555) 200-3000",
+    "address": "456 Startup Boulevard, Austin, TX 73301",
+    "notes": "Fast-growing SaaS startup focused on API-first solutions. Recently closed Series B funding round."
+  },
+  {
+    "Id": 3,
+    "name": "GrowthCo Marketing",
+    "industry": "Digital Marketing",
+    "size": "Medium",
+    "website": "https://growthco-marketing.com",
+    "phone": "+1 (555) 300-4000",
+    "address": "789 Marketing Plaza, New York, NY 10001",
+    "notes": "Full-service digital marketing agency serving enterprise clients. Rapid expansion into new markets."
+  },
+  {
+    "Id": 4,
+    "name": "FinancePlus",
+    "industry": "Financial Services",
+    "size": "Large",
+    "website": "https://financeplus.net",
+    "phone": "+1 (555) 400-5000",
+    "address": "321 Finance Street, Chicago, IL 60601",
+    "notes": "Established financial services firm looking to modernize their technology stack and client experience."
+  },
+  {
+    "Id": 5,
+    "name": "HealthTech Innovations",
+    "industry": "Healthcare Technology",
+    "size": "Medium",
+    "website": "https://healthtech-innovations.org",
+    "phone": "+1 (555) 500-6000",
+    "address": "654 Medical Center Drive, Boston, MA 02101",
+    "notes": "Healthcare technology company specializing in patient data management and telehealth solutions."
+  },
+  {
+    "Id": 6,
+    "name": "RetailMax",
+    "industry": "E-commerce",
+    "size": "Large",
+    "website": "https://retailmax.com",
+    "phone": "+1 (555) 600-7000",
+    "address": "987 Commerce Boulevard, Seattle, WA 98101",
+    "notes": "Major e-commerce platform with millions of active users. Continuous platform optimization and feature development."
+  },
+  {
+    "Id": 7,
+    "name": "EduTech Learning",
+    "industry": "Education Technology",
+    "size": "Small",
+    "website": "https://edutech-learning.edu",
+    "phone": "+1 (555) 700-8000",
+    "address": "147 Education Lane, Denver, CO 80201",
+    "notes": "EdTech startup creating innovative learning management solutions for K-12 and higher education."
+  },
+  {
+    "Id": 8,
+    "name": "GreenEnergy Solutions",
+    "industry": "Renewable Energy",
+    "size": "Medium",
+    "website": "https://greenenergy-solutions.com",
+    "phone": "+1 (555) 800-9000",
+    "address": "258 Sustainability Way, Portland, OR 97201",
+    "notes": "Renewable energy company focused on solar and wind power solutions for commercial and residential markets."
+  }
+]
