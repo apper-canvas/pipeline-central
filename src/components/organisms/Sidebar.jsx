@@ -1,4 +1,5 @@
 import { NavLink, useLocation } from "react-router-dom";
+import React from "react";
 import ApperIcon from "@/components/ApperIcon";
 import { cn } from "@/utils/cn";
 
@@ -22,6 +23,11 @@ const navigation = [
             icon: "Briefcase"
         },
         {
+            name: "Tasks",
+            href: "/tasks",
+            icon: "CheckSquare"
+        },
+        {
             name: "Quotes",
             href: "/quotes",
             icon: "FileText"
@@ -32,7 +38,6 @@ const navigation = [
             icon: "Building2"
         }
     ];
-
     const NavItem = ({ item }) => {
         const isActive = location.pathname === item.href;
         

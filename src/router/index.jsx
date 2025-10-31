@@ -16,6 +16,7 @@ const Contacts = lazy(() => import('@/components/pages/Contacts'));
 const Deals = lazy(() => import('@/components/pages/Deals'));
 const Companies = lazy(() => import('@/components/pages/Companies'));
 const Quotes = lazy(() => import('@/components/pages/Quotes'));
+const Tasks = lazy(() => import('@/components/pages/Tasks'));
 const NotFound = lazy(() => import('@/components/pages/NotFound'));
 
 // Loading fallback component
@@ -114,13 +115,17 @@ export const router = createBrowserRouter([
             path: 'deals',
             element: <Deals />
           }),
-          createRoute({
+createRoute({
             path: 'companies',
             element: <Companies />
           }),
           createRoute({
             path: 'quotes',
             element: <Quotes />
+          }),
+          createRoute({
+            path: 'tasks',
+            element: <Tasks />
           })
         ]
       },
