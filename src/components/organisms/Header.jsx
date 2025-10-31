@@ -1,12 +1,12 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
 import SearchBar from "@/components/molecules/SearchBar";
-import { AuthContext } from "../../App";
+import { useAuth } from "@/layouts/Root";
 import { toast } from "react-toastify";
 
 const LogoutButton = () => {
-    const { logout } = useContext(AuthContext);
+const { logout } = useAuth();
     
     const handleLogout = async () => {
         try {

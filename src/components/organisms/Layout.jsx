@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
-
 const Layout = ({ children, title, showSearch = false, onSearch }) => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -20,9 +20,9 @@ const Layout = ({ children, title, showSearch = false, onSearch }) => {
                     onSearch={onSearch}
                 />
                 
-                <main className="py-8">
+<main className="py-8">
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                        {children}
+                        {children || <Outlet />}
                     </div>
                 </main>
             </div>

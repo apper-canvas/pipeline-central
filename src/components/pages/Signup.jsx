@@ -1,13 +1,9 @@
 import { useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-import { useContext } from 'react';
-import { AuthContext } from '../../App';
+import { Link } from 'react-router-dom';
+import { useAuth } from '@/layouts/Root';
 
 function Signup() {
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { isInitialized } = useContext(AuthContext);
+  const { isInitialized } = useAuth();
   
   useEffect(() => {
     if (isInitialized) {
